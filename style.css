@@ -33,8 +33,8 @@ main {
 
 div {
     border: 3px solid red;
-    height: 500px;
-    max-width: 500px;
+    height: 600px;
+    max-width: 600px;
     
 }
 
@@ -48,7 +48,10 @@ div > p {
 
 #parte2{
     background-image: url('img/./imagens/./background001.jpg');
-    background-size: cover;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat:no-repeat ;
+    
     
 
     
@@ -68,7 +71,8 @@ div > p {
     background-image: url('img/imagens/background002.jpg');
     background-size: cover;
     position: absolute;
-    width: 500px;
+    min-width: 600px;
+    background-attachment: fixed;
 
 }
 
@@ -77,6 +81,7 @@ div > p {
     left: 10%;
     top: 10%;
     background-color: rgba(128, 128, 128, 0.412);
+    
     
     
 }
