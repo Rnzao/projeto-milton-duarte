@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin:0%
+}
+
+header {
+    background-color: black;
+    color: white;   
+    text-align: center;
+    padding: 40px;
+    
+    
+    max-width: 500%;
+   
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+header > h1 {
+    font-family: 'Passion One', cursive;
+    
+}
+
+main {
+    font-family: 'Sriracha', cursive;
+    
+}
+
+
+div {
+    border: 3px solid red;
+    height: 500px;
+    max-width: 500px;
+    
+}
+
+div > p {
+    max-width: 300px;
+    padding: 20px;
+    line-height: 3em;
+    max-height: 500px;
+    
+}
+
+#parte2{
+    background-image: url('img/./imagens/./background001.jpg');
+    background-size: cover;
+    
+
+    
+
+}
+
+#parte2 > p {
+    
+    background-color: rgba(128, 128, 128, 0.412);
+    position: relative;
+    left: 10%;
+    top: 10%;
+
+}
+
+#parte4 {
+    background-image: url('img/imagens/background002.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 500px;
+
+}
+
+#parte4 > p {
+    position: relative;
+    left: 10%;
+    top: 10%;
+    background-color: rgba(128, 128, 128, 0.412);
+    
+    
+}
+
+footer{
+    border: 3px solid black;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+footer > p {
+    padding: 3px;
+}
