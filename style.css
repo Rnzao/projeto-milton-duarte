@@ -31,10 +31,12 @@ main {
 }
 
 
+
 div {
     border: 3px solid red;
-    height: 600px;
+    height: 500px;
     max-width: 600px;
+    
     
 }
 
@@ -44,19 +46,19 @@ div > p {
     line-height: 3em;
     max-height: 500px;
     
+    
 }
 
 #parte2{
-    background-image: url('img/./imagens/./background001.jpg');
+  background-image : url('img/./imagens/./background001.jpg');
    background-attachment: fixed;
-   background-size: cover;
+   background-size: contain;
    background-repeat:no-repeat ;
-    
-    
+    min
 
-    
+   } 
 
-}
+
 
 #parte2 > p {
     
@@ -70,8 +72,8 @@ div > p {
 #parte4 {
     background-image: url('img/imagens/background002.jpg');
     background-size: cover;
-    position: absolute;
-    min-width: 600px;
+    
+    max-width: 600px;
     background-attachment: fixed;
 
 }
